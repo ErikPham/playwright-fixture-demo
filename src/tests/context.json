@@ -1,0 +1,28 @@
+{
+  "api": {
+    "DEMO_01": {
+      "200": [
+        {
+          "endpoint": "/api/bootstrap/next.json",
+          "response": {
+            "code": 200
+          }
+        }
+      ],
+      "404": [
+        {
+          "endpoint": "/api/bootstrap/nexts.json",
+          "response": {
+            "error": "no route found"
+          }
+        },
+        {
+          "endpoint": "/api/bootstrap/nesxt.json",
+          "response": {
+            "error": "no route found"
+          }
+        }
+      ]
+    }
+  }
+}

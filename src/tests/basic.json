@@ -1,0 +1,22 @@
+{
+  "api": {
+    "DEMO_01": {
+      "200": [
+        {
+          "endpoint": "https://demo.printbase.co/api/bootstrap/next.json",
+          "response": {
+            "code": 200
+          }
+        }
+      ],
+      "404": [
+        {
+          "endpoint": "https://demo.printbase.co/api/bootstrap/nexts.json",
+          "response": {
+            "error": "no route found"
+          }
+        }
+      ]
+    }
+  }
+}
